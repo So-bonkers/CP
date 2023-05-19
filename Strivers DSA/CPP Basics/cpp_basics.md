@@ -30,3 +30,17 @@ Since we are talking about input and output, let's say we need to take in a numb
   4. Enumeration
   5. Typedef defined Datatype. 
 
+### Primitive Data Types
+* **Integer**: The keyword used for integer data types in ```int```. Integers typically require **4 bytes** of memory space and range from -2147483648 to 2147483647 (i.e -2^31 to 2^31-1)
+* **Character**: Character data type is used for storing characters. The keyword used for the character data type is ```char```. Characters typically require **1 byte** of memory space and range from -128 to 127 or 0 to 255.
+* **Boolean**: Boolean data type is used for storing Boolean or logical values. A Boolean variable can store either **true** or **false**. The keyword used for the Boolean data type is ```bool```. 
+* **Floating Point**: Floating Point data type is used for storing single-precision floating-point values or decimal values. The keyword used for the floating-point data type is ```float```. Float variables typically require **4 bytes** of memory space.
+* **Double Floating Point**: Double Floating Point data type is used for storing double-precision floating-point values or decimal values. The keyword used for the double floating-point data type is ```double```. Double variables typically require **8 bytes** of memory space.
+* **Void**: Void means without any value. void data type represents a valueless entity. A ```void``` data type is used for those function which does not return a value.
+* **Wide Character**: Wide character data type is also a character data type but this data type has a size greater than the normal 8-bit data type. Represented by ```wchar_t```. It is generally **2 or 4 bytes** long.
+
+### Derived Data Types
+* **Function**: A function is a block of code or program-segment that is defined to perform a specific well-defined task. A function is generally defined to save the user from writing the same lines of code again and again for the same input. All the lines of code are put together inside a single function and this can be called anywhere required. main() is a default function that is defined in every program of C++.
+* **Array**: An array is a collection of items stored at continuous memory locations. The idea of array is to represent many instances in one variable.
+* **Pointers**: Pointers are symbolic representation of addresses. They enable programs to simulate call-by-reference as well as to create and manipulate dynamic data structures.
+* **Reference**: When a variable is declared as reference, it becomes an alternative name for an existing variable. A variable can be declared as reference by putting ```‘&’``` in the declaration.
